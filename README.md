@@ -98,7 +98,7 @@ aas-pricing-model/
 
 ```bash
 # Clone the repository
-git clone https://github.com/YOUR_USERNAME/aas-pricing-model.git
+git clone https://github.com/cameroncc333/aas-pricing-model.git
 cd aas-pricing-model
 
 # Install dependencies
@@ -138,5 +138,5 @@ Full business documentation, financial model, and verified job history available
 - Junior at Mill Creek High School (Class of 2027)
 - 4.1 GPA | 12 AP Courses
 - Varsity Football — All-Region Honorable Mention
-- [LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN)
+- https://www.linkedin.com/in/cameron-camarotti-6997152b0/
 - [All Around Services](https://allaroundservice.com)
