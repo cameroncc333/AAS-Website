@@ -1,6 +1,6 @@
 # All Around Services — Website
 
-Source code for [allaroundservice.com](https://allaroundservice.com), the official website for All Around Services.
+Source code for [allaroundservice.com](https://allaroundserviceatl.com), the official website for All Around Services.
 
 ## About AAS
 
@@ -54,7 +54,7 @@ Where:
 
 The model uses partial derivative optimization to find the price that maximizes margin while remaining competitive. It has been back-tested against all 44 completed jobs.
 
-Full Python implementation with Monte Carlo simulation: [aas-pricing-model](https://github.com/YOUR_USERNAME/aas-pricing-model)
+Full Python implementation with Monte Carlo simulation: [aas-pricing-model](https://github.com/cameroncc333/aas-pricing-model)
 
 ## Connect
 
@@ -67,5 +67,5 @@ Full Python implementation with Monte Carlo simulation: [aas-pricing-model](http
 - Junior at Mill Creek High School (Class of 2027)
 - 4.1 GPA | 12 AP Courses
 - Varsity Football — All-Region Honorable Mention, Leadership Council
-- [LinkedIn](https://linkedin.com/in/YOUR_LINKEDIN)
+https://www.linkedin.com/in/cameron-camarotti-6997152b0/
 - [Website](https://allaroundservice.com)
