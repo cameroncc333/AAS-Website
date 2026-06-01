@@ -1,26 +1,48 @@
 @import "tailwindcss";
 
-:root {
-  --background: #ffffff;
-  --foreground: #171717;
+/* ─── Brand tokens ─────────────────────────────────────────────────────────── */
+@theme {
+  --color-warm-field-paper: oklch(95.5% 0.012 76);
+  --color-charcoal-ink:     oklch(14%   0.005 75);
+  --color-survey-green:     oklch(37%   0.07  142);
+  --color-clay-divider:     oklch(77%   0.04  72);
+  --color-live-coral:       oklch(68%   0.14  32);
 }
 
+/* Font families reference CSS variables injected by next/font on <html> */
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
-  --font-sans: var(--font-geist-sans);
-  --font-mono: var(--font-geist-mono);
+  --font-display: var(--font-fraunces), Georgia, serif;
+  --font-sans:    var(--font-geist), sans-serif;
+  --font-mono:    var(--font-jetbrains-mono), "JetBrains Mono", monospace;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+/* ─── Base ──────────────────────────────────────────────────────────────────── */
+html {
+  background-color: oklch(95.5% 0.012 76);
+  color-scheme: light;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow-x: hidden;
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
-  font-family: Arial, Helvetica, sans-serif;
+  background-color: oklch(95.5% 0.012 76);
+  color: oklch(14% 0.005 75);
+  font-family: var(--font-geist), sans-serif;
+  overflow-x: hidden;
 }
+
+/* ─── Lenis ─────────────────────────────────────────────────────────────────── */
+html.lenis,
+html.lenis body {
+  height: auto;
+}
+
+.lenis.lenis-smooth {
+  scroll-behavior: auto !important;
+}
+
+.lenis.lenis-smooth [data-lenis-prevent] {
+  overscroll-behavior: contain;
+}
+
