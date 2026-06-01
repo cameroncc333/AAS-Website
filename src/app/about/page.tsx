@@ -19,10 +19,10 @@ const CREW = [
 ]
 
 const STATS = [
-  { value: '44',      label: 'Jobs Done'      },
+  { value: '54',      label: 'Jobs Done'      },
   { value: '15+',     label: 'Cities Served'  },
   { value: "Jan '25", label: 'Founded'        },
-  { value: '$1,250+', label: 'Donated'        },
+  { value: '$3,000+', label: 'Donated'        },
 ]
 
 export default function AboutPage() {
@@ -134,14 +134,14 @@ export default function AboutPage() {
             className="font-sans text-base leading-[1.7] max-w-2xl mb-6"
             style={{ color: 'oklch(14% 0.005 75 / 0.75)' }}
           >
-            Not every job has an invoice. We've donated over $1,250 in professional labor to community members and nursing home residents — completely free. Our goal is $10,000 donated by 2027.
+            Not every job has an invoice. We've donated over $3,000 in professional labor to community members and nursing home residents — completely free. Our goal is $10,000 donated by 2027.
           </p>
           <div className="flex flex-col gap-2">
             {[
               'Community members in need',
               'Nursing home residents & elderly neighbors',
               'Zero charge, full effort',
-              '$1,250 donated so far — goal: $10,000 by 2027',
+              '$3,000 donated so far — goal: $10,000 by 2027',
             ].map(point => (
               <div key={point} className="flex items-start gap-3">
                 <span style={{ color: GREEN, flexShrink: 0 }}>✓</span>

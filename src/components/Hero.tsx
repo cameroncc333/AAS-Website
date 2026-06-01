@@ -157,7 +157,7 @@ export default function Hero() {
               className="font-mono text-[10px] uppercase tracking-wider"
               style={{ color: 'rgba(245,241,232,0.70)' }}
             >
-              44 JOBS · 15 CITIES · 6 CREW
+              54 JOBS · 15 CITIES · 6 CREW
             </p>
 
             <a

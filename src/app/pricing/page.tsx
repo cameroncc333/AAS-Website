@@ -11,7 +11,7 @@ const GREEN   = 'oklch(37% 0.07 142)'
 const CLAY    = 'oklch(77% 0.04 72)'
 const CREAM   = '#F5F1E8'
 
-// ── Pricing constants (calibrated from 44-job dataset) ───────────────────────
+// ── Pricing constants (calibrated from 54-job dataset) ───────────────────────
 const FUEL_COEF  = 0.42   // empirical distance-fuel multiplier
 const LABOR_RATE = 18     // $/hr regional market rate
 const EQUIP_DEPR = 0.18   // $/hr equipment depreciation
@@ -35,7 +35,7 @@ const FAQS = [
   },
   {
     q: 'How do you calculate your pricing?',
-    a: 'Every quote comes from an 8-variable cost function built from our 44-job dataset. It accounts for fuel price, route distance, labor hours, crew fatigue (based on AP Physics work-energy principles), material costs, disposal fees, equipment depreciation, and seasonal demand. Every quote is different — the calculator below shows the exact math.',
+    a: 'Every quote comes from an 8-variable cost function built from our 54-job dataset. It accounts for fuel price, route distance, labor hours, crew fatigue (based on AP Physics work-energy principles), material costs, disposal fees, equipment depreciation, and seasonal demand. Every quote is different — the calculator below shows the exact math.',
   },
   {
     q: 'How quickly will you respond to my request?',
@@ -71,11 +71,11 @@ const FAQS = [
   },
   {
     q: 'What is AAS Cares?',
-    a: 'Our pro-bono program. We\'ve donated $1,250+ in professional labor to community members and nursing home residents — completely free. If you or someone you know needs help but can\'t afford it, reach out. No application, no means test. Just tell us.',
+    a: 'Our pro-bono program. We\'ve donated $3,000+ in professional labor to community members and nursing home residents — completely free. If you or someone you know needs help but can\'t afford it, reach out. No application, no means test. Just tell us.',
   },
   {
     q: 'Who founded All Around Services?',
-    a: 'Cameron Camarotti and Ashton Patterson, both high school students from Suwanee, GA. Founded January 2025. What started as a single moving job for a neighbor grew into a 5-service, 4-person operation across Atlanta Metro — 44 jobs, 15+ cities, and $1,250+ donated.',
+    a: 'Cameron Camarotti and Ashton Patterson, both high school students from Suwanee, GA. Founded January 2025. What started as a single moving job for a neighbor grew into a 5-service, 4-person operation across Atlanta Metro — 54 jobs, 15+ cities, and $3,000+ donated.',
   },
 ]
 
@@ -147,7 +147,7 @@ export default function PricingPage() {
             style={{ color: 'oklch(14% 0.005 75 / 0.45)' }}
           >
             Every quote is generated from a mathematically rigorous 8-variable cost function — not guesswork.
-            Based on 44 completed jobs across Atlanta Metro.
+            Based on 54 completed jobs across Atlanta Metro.
           </p>
         </section>
 
@@ -217,7 +217,7 @@ export default function PricingPage() {
             className="font-mono text-[9px] leading-relaxed mb-10 max-w-2xl"
             style={{ color: 'oklch(14% 0.005 75 / 0.5)' }}
           >
-            Eight real inputs. One output. The same model used to generate every AAS quote, built from AP Calculus BC concepts and calibrated from 44 completed jobs.
+            Eight real inputs. One output. The same model used to generate every AAS quote, built from AP Calculus BC concepts and calibrated from 54 completed jobs.
             C = α·d·f + β·(l/φ) + γ·m + δ·w + ε·e
           </p>
 
@@ -397,7 +397,7 @@ export default function PricingPage() {
                   className="font-mono text-[8px] leading-relaxed"
                   style={{ color: 'oklch(14% 0.005 75 / 0.45)' }}
                 >
-                  Ballpark only. Final quote based on site assessment, exact scope, and materials. The minimum quote equals total overhead × 2.3 — our efficiency ratio derived from the 44-job dataset. When fatigue drops below 1.0, effective labor cost rises, pushing the floor up. This ensures no job is ever underpriced.
+                  Ballpark only. Final quote based on site assessment, exact scope, and materials. The minimum quote equals total overhead × 2.3 — our efficiency ratio derived from the 54-job dataset. When fatigue drops below 1.0, effective labor cost rises, pushing the floor up. This ensures no job is ever underpriced.
                 </p>
               </div>
 
