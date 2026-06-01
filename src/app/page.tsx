@@ -2,6 +2,7 @@ import Loading from '@/components/Loading'
 import Nav from '@/components/Nav'
 import Hero from '@/components/Hero'
 import ByTheNumbers from '@/components/ByTheNumbers'
+import InstantQuote from '@/components/InstantQuote'
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <main>
         <Hero />
         <ByTheNumbers />
+        <InstantQuote />
       </main>
     </>
   )
